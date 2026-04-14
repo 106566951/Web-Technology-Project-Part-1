@@ -9,26 +9,35 @@
     <style></style>
 </head>
 <body>
+    <!-- Header and Navigation Bar --> 
     <header>
         <h1>Application</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="apply.html">Job Application</a></li>
+                <li><a href="jobs.html">Apply Now</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
     </header>
-    <form action="https://mercury.swin.edu.au/it000000/formtest.php">
+    <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
         <fieldset>
             <legend>Job Vacancy</legend>
             <p>
                 <label for="reference_number">Job Reference Number:</label>
-                <input type="text" id="reference_number" name="reference_number" maxlength="5" minlength="5" pattern="" required>
+                <input type="text" id="reference_number" name="reference_number" maxlength="5" minlength="5" pattern="^[a-zA-Z0-9]+$" required>
             </p>
         </fieldset>
         <fieldset>
             <legend>Applicant Details</legend>
             <p>
                 <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" maxlength="20" pattern="" required>
+                <input type="text" id="first_name" maxlength="20" pattern="^[a-zA-Z]+$" required>
             </p>
             <p>
                 <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" maxlength="20" pattern="" required>
+                <input type="text" id="last_name" maxlength="20" pattern="^[a-zA-Z]+$" required>
             </p>
             <p>
                 <label for="DOB">Date of Birth:</label>
@@ -38,11 +47,11 @@
         <fieldset>
             <legend>Gender</legend>
             <p>
-                <input type="radio" name="other" id="other" value="other" required checked>
+                <input type="radio" name="gender" id="other" value="other" required checked>
                 <label for="other">Other</label>
-                <input type="radio" id="male" name="male" value="male">
+                <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label>
-                <input type="radio" name="female" id="female" value="female">
+                <input type="radio" name="gender" id="female" value="female">
                 <label for="female">Female</label>
             </p>
         </fieldset>
@@ -50,11 +59,11 @@
             <legend>Applicant Address</legend>
             <p>
                 <label for="street">Street Address:</label>
-                <input type="text" name="street" id="street" maxlength="40" pattern="" required>
+                <input type="text" name="street" id="street" maxlength="40" required>
             </p>
             <p>
                 <label for="town">Suburb/Town:</label>
-                <input type="text" name="town" id="town" maxlength="40" pattern="" required>
+                <input type="text" name="town" id="town" maxlength="40" pattern="^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$" required>
             </p>
             <p>
                 <label for="state">State:</label>
@@ -72,18 +81,18 @@
             </p>
             <p>
                 <label for="postcode">Postcode:</label>
-                <input type="text" name="postcode" id="postcode" maxlength="4" minlength="4" pattern="" required>
+                <input type="text" name="postcode" id="postcode" maxlength="4" minlength="4" pattern="\d{4}" required>
             </p>
         </fieldset>
         <fieldset>
             <legend>Applicant Contact Details</legend>
             <p>
-                <label for="email">Email</label>
+                <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required>
             </p>
             <p>
                 <label for="number">Mobile Number:</label>
-                <input type="text" name="number" id="number" minlength="8" maxlength="12" pattern="" required>
+                <input type="text" name="number" id="number" minlength="8" maxlength="12" pattern="\d{8,12}" required>
             </p>
         </fieldset>
         <fieldset>
@@ -92,16 +101,26 @@
                 <label for="comms">Communication</label>
                 <input type="checkbox" name="skills[]" id="comms" value="comms">
                 <label for="strategy">Consultation Strategy Design</label>
-                <input type="checkbox" name="skills[]" id="strategy" value="strategy">
+                <input type="checkbox" name="skills[]" id="strategy" value="design strategy">
+                <label for="frontend">Frontend development</label>
+                <input type="checkbox" name="skills[]" id="frontend" value="frontend">
+                <label for="backend">Backend development</label>
+                <input type="checkbox" name="skills[]" id="backend" value="backend">
             </p>
             <p>
                 <label for="skills">Other Skills</label><br>
-                <textarea name="skills" id="skills" rows="5" cols="30" placeholder="List another skills you think may be useful for this position..."></textarea>
+                <textarea name="other_skills" id="other_skills" rows="5" cols="30" placeholder="List another skills you think may be useful for this position..."></textarea>
             </p>
         </fieldset>
         <input type= "submit" value="Submit">
 	    <input type= "reset" value="Reset Form">
     </form>
-    <footer></footer>
+    <footer>
+        <ul>
+            <li><a href="https://greengrid.atlassian.net/jira/software/projects/GG/boards/2"> Jira Project</a></li>
+            <li><a href="https://github.com/106566951/Web-Technology-Project-Part-1"> Github Repository</a></li>
+            <li>Email: <a href="mailto:info@greengridbusiness.com">info@greengridbusiness.com</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
