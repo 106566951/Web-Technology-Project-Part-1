@@ -144,12 +144,10 @@ dt{
     font-size: inherit;
     border-radius: 2rem;
     cursor: pointer;
-}
-.submit_but:hover, .reset_but:hover{background-color: rgb(129, 179, 240);}
-.submit_but:active, .reset_but:active{
-    width: 48%;
     transition: 0.1s;
 }
+.submit_but:hover, .reset_but:hover{background-color: rgb(129, 179, 240);}
+.submit_but:active, .reset_but:active{width: 47.5%;}
 
 /* ------------------------------------------ */
 /* ---------- Jobs Form CSS ---------- */
