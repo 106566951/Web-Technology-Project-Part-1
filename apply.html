@@ -11,15 +11,16 @@
 <body>
     <!-- Header and Navigation Bar --> 
     <header>
-        <h1>Apply</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="apply.html">Job Application</a></li>
-                <li><a href="jobs.html">Apply Now</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><img src="images/greengrid_logo.png" width="50px" height="45px" alt="greengrid_logo"></li>
+                <li><h1>GREEN GRID</h1></li>
+                <li><a class="navlink" href="index.html">Home Page</a></li>
+                <li><a class="navlink" href="apply.html">Apply Now</a></li>
+                <li><a class="navlink" href="jobs.html">Job Listings</a></li>
+                <li><a class="navlink" href="about.html">About Us</a></li>
             </ul>
-        </nav>
+    </nav>
     </header>
     <main>
         <h2 class="form_title">Application Form</h2>  
@@ -111,11 +112,19 @@
                 </p>
                 <p>
                     <label for="skills">Other Skills</label><br>
-                    <textarea name="other_skills" id="other_skills" rows="5" cols="30" placeholder="List another skills you think may be useful for this position..."></textarea>
+                    <textarea name="other_skills" id="other_skills" rows="5" cols="30" placeholder="List any other skills you think may be useful for this position..."></textarea>
                 </p>
             </fieldset>
-            <input class="submit_but" type="submit" value="Submit">
-	        <input class="reset_but" type="reset" value="Reset Form">
+            <fieldset class="form_field" id="submit_reset">
+                <p>
+                    <input class="submit_but" type="submit" value="Submit">
+                </p>
+                <p>
+                    <input class="reset_but" type="reset" value="Reset Form">
+                </p>
+            </fieldset>
+
+	            
         </form>
     </main>
     
