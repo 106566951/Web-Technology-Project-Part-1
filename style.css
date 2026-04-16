@@ -129,6 +129,28 @@ dt{
     text-transform:uppercase;
 }
 
+/* Styles for submit button */
+#submit_reset{
+    text-align: center;
+    padding:0;
+    margin-top: -1.2rem;
+}
+.submit_but, .reset_but{
+    color: white;
+    border: 0;
+    width: 50%;
+    padding: 0.73rem;
+    background-color: rgb(94, 150, 218);
+    font-size: inherit;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.submit_but:hover, .reset_but:hover{background-color: rgb(129, 179, 240);}
+.submit_but:active, .reset_but:active{
+    width: 48%;
+    transition: 0.1s;
+}
+
 /* ------------------------------------------ */
 /* ---------- Jobs Form CSS ---------- */
 /* ------------------------------------------ */
