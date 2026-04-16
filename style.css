@@ -18,42 +18,38 @@ main {
 /* ------- Heading and Navigation CSS ------- */
 /* ------------------------------------------ */
 
-/* formats the header */
-header {
+nav {
     background-color: #77DD77;
-    margin: 0px;
-    padding: 16px;
-    text-align: center;
-}
-
-/* removes default margin and padding from header h1 */
-header h1 {
-    letter-spacing: 0.1em;
-    font-size: 4em;
-    margin: 0px;
-    padding: 0px;
 }
 
 /* formats the navigation bar */
 nav ul {
-    background-color: #77DD77;
+    display: flex;
+    gap: 5em;
     margin: 0px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* removes dots and displays the lines horizontally */
 nav li { 
     list-style: none;
-    display: inline-block;
-    padding: 20px 40px; /* top and bottom, left and right */
 }
 
 /* formats the navigation links */
-nav a { 
+.navlink { 
     font-size: 1.5em;
     text-decoration: none;
+    color: black;
 }
 
+.navlink:hover {
+    color: rgb(50, 255, 47);
+}
+
+.highlight {
+    color: rgb(50, 255, 47);
+}
 
 table {
   border-collapse: collapse;
