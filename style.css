@@ -124,3 +124,26 @@ dt{
     color: #77DD77;
     text-transform:uppercase;
 }
+
+/* ------------------------------------------ */
+/* ---------- Jobs Form CSS ---------- */
+/* ------------------------------------------ */
+
+aside {
+    float: right;
+    text-align: center;
+    width: 25%;
+    margin: 0 0 1rem 1rem;
+    padding: 0.5em;
+    border:solid#69c037b4;
+    border-radius: 25px;
+    background-color: #69c037b4;
+}
+
+.RefNum{
+    border:solid#69c037b4;
+    border-radius: 25px;
+    background-color: #69c037b4;
+
+
+}
