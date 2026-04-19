@@ -65,11 +65,16 @@ table {
   width: 100%;
 }
 
-th, td {
+th, td{
   border: 2px solid #59ce9595;
   padding: 8px;
   text-align: left;
+
 }   
+
+td:hover {
+   color: rgb(170, 102, 102);;
+}
 
 footer{
   margin: 8px;
@@ -89,16 +94,25 @@ footer{
     font-family: 'Times New Roman', Times, serif
 }
 
-dt{
-    font-family: Verdana,sans-serif;
-    font-weight: 500;
+#sample{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #1c5637;
+    text-shadow: 6px 4px 8px burlywood;
 }
 
 img:hover{
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
+
+figure{
+    margin-left: 400px;
+    border: sienna solid 0.3em;
+    width: 400px;
+    height: 300px;
+}
+
 /* ------------------------------------------ */
 /* ---------- Application Form CSS ---------- */
 /* ------------------------------------------ */
