@@ -51,17 +51,14 @@ nav li {
 /* ------------------------------------------ */
 /* ------- Index CSS ------- */
 /* ------------------------------------------ */
-
-.highlight {
-    color: #00A36C;
-}
-
-
-
-
 /* ------------------------------------------ */
 /* ---------- About me CSS ---------- */
 /* ------------------------------------------ */
+
+.highlight:hover {
+  color: rgb(170, 102, 102); /* Changes text color to red on hover */
+}   
+
 
 table {
   border-collapse: collapse;
@@ -84,11 +81,10 @@ footer{
     padding-top: 3%;
     padding-left: 2%;
     padding-bottom: 3%;
-    background-color: #e1998c;
+    background-color: #4cab88;
 }
 
 #textformat{  
-    padding-right: 2%;
     font-weight:400;
     font-family: 'Times New Roman', Times, serif
 }
@@ -96,9 +92,13 @@ footer{
 dt{
     font-family: Verdana,sans-serif;
     font-weight: 500;
-    color: #1e6746;
+    color: #1c5637;
 }
 
+img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
 /* ------------------------------------------ */
 /* ---------- Application Form CSS ---------- */
 /* ------------------------------------------ */
