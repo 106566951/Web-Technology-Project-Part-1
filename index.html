@@ -7,13 +7,9 @@
     <title>Index Page</title>
     <link href="style.css" rel="stylesheet">
     <style>
-        article {
-            background-color: #c4ffc4;
-            box-shadow: #00000051 10px 10px 10px;
+        section {
             padding: 16px;
-            margin: 8px;
-            border: 1px solid black;
-            border-radius: 10px;
+            margin: 16px;
         }
     </style>
 </head>
@@ -21,7 +17,7 @@
     <!-- Header and Navigation Bar --> 
     <nav>
         <ul>
-            <li><img src="images/greengrid_logo.png" width="50px" height="45px" alt="greengrid_logo"></li>
+            <li><img src="images/greengrid_logo.png" width="50" height="45" alt="greengrid_logo"></li>
             <li><h1>GREEN GRID</h1></li>
             <li><a class="navlink" href="index.html">Home Page</a></li>
             <li><a class="navlink" href="apply.html">Apply Now</a></li>
@@ -32,22 +28,22 @@
 
     <!-- Main Content -->
     <main>
-        <article class="text_with_image_container">
-            <section>
-                <h1><strong>Making the Future <span class="highlight">Sustainable!</span></strong></h1>
-
+        <div class="text_with_image_container border_with_shadow">
+            <article>
                 <!-- Slogan, Image and Description helping to convince why user should join company -->
-
-            </section>
+                <h2><strong>Making the Future <span class="highlight">Sustainable!</span></strong></h2>
+                <p>Green Grid is ...</p>
+            </article>
             <aside>
-                <img src="images/greengrid_logo.png" alt="greengrid_logo" width="500px" height="auto">
+                <img class="border_with_shadow" src="images/greengrid_logo.png" alt="greengrid_logo" width="500">
             </aside>
-        </article>
-        <article>
-            <section>
+        </div>
+        <div class="text_with_image_container border_with_shadow">
+            <article>
                 <!-- Table displaying data about company and maybe a search bar?? -->
-            </section>
-        </article>
+                <h2><strong>Why join Green Grid</strong></h2>
+            </article>
+        </div>
     </main>
     <footer>
         <ul>
