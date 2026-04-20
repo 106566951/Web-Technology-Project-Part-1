@@ -1,3 +1,18 @@
+/* ------------------------------------------ */
+/* ---------------- Animations -------------- */
+/* ------------------------------------------ */
+
+@keyframes fadeIn {
+  from { opacity: 0 ; margin-top: -10px; }
+  to { opacity: 1 ; margin-top: 0; }
+}
+
+
+
+/* ------------------------------------------ */
+/* --------------- Global CSS --------------- */
+/* ------------------------------------------ */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,6 +30,10 @@ main {
     padding: 8px;
 }
 
+main, footer {
+    animation: fadeIn 1s ease;
+}
+
 /* ------------------------------------------ */
 /* ------- Heading and Navigation CSS ------- */
 /* ------------------------------------------ */
@@ -26,7 +45,7 @@ nav {
 /* formats the navigation bar */
 nav ul {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
     gap: 5em;
     padding: auto;
     margin: 0px;
@@ -41,13 +60,17 @@ nav li {
 
 /* formats the navigation links */
 .navlink { 
+    display: inline-block;
     font-size: 1.5em;
     text-decoration: none;
     color: black;
+    transition: transform 0.2s ease;
 }
 
 .navlink:hover {
-    color: rgb(123, 255, 120);
+    color: #2E6F40;
+    text-decoration: underline;
+    transform: translateY(-5px);
 }
 
 /* ------------------------------------------ */
@@ -55,7 +78,7 @@ nav li {
 /* ------------------------------------------ */
 
 .highlight {
-  color: #2E6F40; /* Changes text color to red on hover */
+  color: #2E6F40; /* Emphasises the word */
 } 
 
 /* ------------------------------------------ */
