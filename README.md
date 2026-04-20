@@ -1,5 +1,5 @@
 # Web-Technology-Project-Part-1
--
+
 Project Part 1
 GREEN GRID logo is generated using chatgpt(OpenAI, April 2026).
 Reviewed and edited before use.
