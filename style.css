@@ -251,7 +251,7 @@ figure{
 /* ---------- Jobs Form CSS ---------- */
 /* ------------------------------------------ */
 
-aside {
+.badge {
     float: right;
     text-align: center;
     width: 25%;
