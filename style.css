@@ -244,7 +244,7 @@ figure{
 }
 #DOB, #reference_num {letter-spacing: 1rem;}
 .form_field p{font-size: 1.05rem;}
-.select_input{width: 30%;height: 1.4rem;font-size: 1.1rem;}
+.select_input{height: 1.4rem;font-size: 1.1rem;}
 
 /* Styles for submit button */
 #submit_reset{
