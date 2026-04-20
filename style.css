@@ -200,7 +200,7 @@ td:hover {
     font-family: 'Times New Roman', Times, serif
 }
 
-#sample{
+.sample{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #1c5637;
@@ -263,7 +263,7 @@ figure{
 }
 #DOB, #reference_num {letter-spacing: 1rem;}
 .form_field p{font-size: 1.05rem;}
-.select_input{width: 30%;height: 1.4rem;font-size: 1.1rem;}
+.select_input{height: 1.4rem;font-size: 1.1rem;}
 
 /* Styles for submit button */
 #submit_reset{
@@ -298,12 +298,12 @@ figure{
     padding: 0.5em;
     border:solid#69c037b4;
     border-radius: 25px;
-    background-color: #69c037b4;
+    background-color:   #69c037b4;
 }
 
 /*Class to style span tag in the jobs page */
 .RefNum{
-    border:solid#69c037b4;
+    border:solid #69c037b4;
     border-radius: 25px;
     background-color: #69c037b4;
 
@@ -314,7 +314,6 @@ figure{
 /*Apply button styling*/
 .apply_button{
     display: block;
-    text-align: right;
     background-color: #598cd8;
     color: rgb(0, 0, 0);
     padding: 10px 25px;
@@ -324,6 +323,7 @@ figure{
     cursor: pointer;
     width: fit-content;
     margin-left: auto;
+    text-decoration: none;
 }
 /*Hover effect for apply button*/
 .apply_button:hover {
