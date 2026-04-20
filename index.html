@@ -7,7 +7,7 @@
     <title>Index Page</title>
     <link href="style.css" rel="stylesheet">
     <style>
-        article {
+        .text_with_image_container article {
             width: 40%;
             margin: auto;
         }
@@ -46,11 +46,15 @@
                 <img class="border_with_shadow" src="images/greengrid_logo.png" alt="greengrid_logo" width="500">
             </aside>
         </div>
-        <div class="text_with_image_container border_with_shadow">
-            <article>
+        <div class="border_with_shadow">
+            <div id="searchbar_container">
                 <!-- Table displaying data about company and maybe a search bar?? -->
-                <h2><strong>Why join Green Grid</strong></h2>
-            </article>
+                <h3>Search all Projects</h3>
+                <div id="searchbar">
+                    <input type="text" placeholder="E.g. Solar Panel Farms, Renewables Parade...">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
