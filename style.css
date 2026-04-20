@@ -53,11 +53,16 @@ nav li {
 /* ------------------------------------------ */
 /* ------- Index CSS ------- */
 /* ------------------------------------------ */
+
+.highlight {
+  color: #2E6F40; /* Changes text color to red on hover */
+} 
+
 /* ------------------------------------------ */
 /* ---------- About me CSS ---------- */
 /* ------------------------------------------ */
 
-.highlight:hover {
+.red_highlight:hover {
   color: rgb(170, 102, 102); /* Changes text color to red on hover */
 }   
 
