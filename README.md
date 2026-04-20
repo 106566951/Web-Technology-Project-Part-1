@@ -15,13 +15,17 @@ Claude 4.6 and Indeed for Job listing requirements
 Devs and contributions
 -----------------------------------------------------------------------------------------------------------------------------
 
+
 Andy Huynh
 
 Contribution:
 
 Shared Responsibility: CSS File
+
 Individual Responsibility: Jobs page
+
 Individual Responsibility: Create appropriate links to Jira project, GitHub repository, Email
+
 
 
 Joshua Joshi
@@ -29,8 +33,11 @@ Joshua Joshi
 Contribution:
 
 Shared Responsibility: CSS File
+
 Individual Responsibility: About.html
+
 Individual Responsibility: Managing Jira account
+
 
 
 Leo Dalton
@@ -38,16 +45,23 @@ Leo Dalton
 Contribution:
 
 Shared Responsibility: CSS File
+
 Individual Responsibility: Index.html
+
 Individual Responsibility: Individual Responsibility: Create navigation menu common
+
 Individual Responsibility: Ensure structure of HTML follows accessibility guidelines (semantic tags, readability, etc)
+
+
 
 Kaleb Larkins
 
 Contribution:
 
 Shared Responsibility: CSS File
+
 Individual Responsibility: Apply.html
+
 Individual Responsibility: Styles for application form
 
 -----------------------------------------------------------------------------------------------------------------------------
