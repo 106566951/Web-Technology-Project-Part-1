@@ -121,6 +121,8 @@ footer li {
     border-radius: 10px;
 }
 
+/* hightlights in red when hovered across text*/
+
 .highlight {
   color: #2E6F40; /* Emphasises the word */
 } 
@@ -218,6 +220,8 @@ td:hover {
     font-family: 'Times New Roman', Times, serif
 }
 
+/*The devs names are styled with shadows*/
+
 .sample{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -225,6 +229,7 @@ td:hover {
     text-shadow: 6px 4px 8px burlywood;
 }
 
+/*the images are scaled by 20% when hovered*/
 img:hover{
     transform: scale(1.2);
     transition: transform 0.3s ease;
