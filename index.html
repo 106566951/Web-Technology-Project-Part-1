@@ -46,14 +46,12 @@
                 <img class="border_with_shadow" src="images/greengrid_logo.png" alt="greengrid_logo" width="500">
             </aside>
         </div>
-        <div class="border_with_shadow">
-            <div id="searchbar_container">
-                <!-- Table displaying data about company and maybe a search bar?? -->
-                <h3>Search all Projects</h3>
-                <div id="searchbar">
-                    <input type="text" placeholder="E.g. Solar Panel Farms, Renewables Parade...">
-                    <button type="submit">Search</button>
-                </div>
+        <div id="searchbar_container" class="border_with_shadow">
+            <!-- Table displaying data about company and maybe a search bar?? -->
+            <label for="search">Search our <span class="highlight">Projects:</span></label>
+            <div id="searchbar">
+                <input type="text" id="search" name="search" placeholder="E.g. Solar Panel Farms, Renewables Parade...">
+                <button type="submit">Search</button>
             </div>
         </div>
     </main>

@@ -142,22 +142,40 @@ footer li {
 }
 
 #searchbar_container {
+  background-color: #98f898;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 32px
+  padding: 32px;
+  margin: 16px;
+}
+
+#searchbar_container label {
+  font-weight: bold;
+  margin: 16px;
+  font-size: 2em;
 }
 
 #searchbar {
     display: flex;
-    
+    border: 2px solid black;
+    border-radius: 2px;
+
 }
 
 #searchbar input, #searchbar button {
     line-height: 2;
     font-size: 2em;
+    padding: 0px 60px;
     margin: 0px;
+    border: 0px;
+}
+
+#searchbar button {
+    cursor: pointer;
+    color: white;
+    background-color: #2E6F40;
 }
 
 /* ------------------------------------------ */
