@@ -250,7 +250,7 @@ figure{
 /* ------------------------------------------ */
 /* ---------- Jobs Form CSS ---------- */
 /* ------------------------------------------ */
-
+/*Class to style aside tag in the jobs page */
 .badge {
     float: right;
     text-align: center;
@@ -262,6 +262,7 @@ figure{
     background-color: #69c037b4;
 }
 
+/*Class to style span tag in the jobs page */
 .RefNum{
     border:solid#69c037b4;
     border-radius: 25px;
@@ -271,21 +272,21 @@ figure{
 }
 
 
-article a {
+/*Apply button styling*/
+.apply_button{
     display: block;
     text-align: right;
-}
-
-article a button {
     background-color: #1a4f1a;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px 25px;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
+    width: fit-content;
+    margin-left: auto;
 }
-
-article a button:hover {
+/*Hover effect for apply button*/
+.apply_button:hover {
     background-color: #3da8e6;
 }
