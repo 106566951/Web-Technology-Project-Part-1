@@ -7,7 +7,8 @@
     <title>Application Page</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+        main{margin: 2rem;}
+        select{cursor: pointer;}
     </style>
 </head>
 <body>
@@ -103,14 +104,16 @@
             <fieldset  class="form_field" id="input_skills">
                 <legend>Applicant Skill-set</legend>
                 <p>
-                    <label for="comms">Communication</label>
                     <input type="checkbox" name="skills[]" id="comms" value="comms">
-                    <label for="strategy">Consultation Strategy Design</label>
+                    <label for="comms">Communication</label><br>
                     <input type="checkbox" name="skills[]" id="strategy" value="design strategy">
-                    <label for="frontend">Frontend development</label>
+                    <label for="strategy">Consultation Strategy Design</label><br>
                     <input type="checkbox" name="skills[]" id="frontend" value="frontend">
-                    <label for="backend">Backend development</label>
+                    <label for="frontend">Frontend development</label><br>
                     <input type="checkbox" name="skills[]" id="backend" value="backend">
+                    <label for="backend">Backend development</label><br>
+                    <input type="checkbox" name="skills[]" id="git" value="git">
+                    <label for="git">Knowledge on Git version control</label>
                 </p>
                 <p>
                     <label for="other_skills">Other Skills</label><br>
