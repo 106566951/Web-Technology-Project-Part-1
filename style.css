@@ -332,6 +332,7 @@ figure{
     padding: 0.5em;
 }
 .input_form{
+    background-color: #c4ffc4;
     border: solid 0.3em #77DD77;
     margin-left:auto;
     margin-right: auto;
