@@ -27,7 +27,9 @@
     </header>
     <main>
         <h2 class="form_title">Application Form</h2>  
+        <!-- Application Form -->
         <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php" class="input_form"> 
+            <!-- Section for the job reference number -->
             <fieldset class="form_field" id="job_num">
                 <legend>Job Vacancy</legend>
                 <p> 
@@ -35,6 +37,7 @@
                     <input class="form_input" type="text" id="reference_num" name="reference_number" maxlength="5" minlength="5" pattern="^[a-zA-Z0-9]+$" required>
                 </p>
             </fieldset>
+            <!-- Section for the applicates general details -->
             <fieldset class="form_field" id="input_user">
                 <legend>Applicant Details</legend>
                 <p>
@@ -50,6 +53,7 @@
                     <input class="form_input" type="text" name="date" id="DOB" placeholder="dd/mm/yyyy" maxlength="10" size="10" pattern="\d{2}/\d{2}/\d{4}" required>
                 </p>
             </fieldset>
+            <!-- Section for applicants gender -->
             <fieldset  class="form_field" id="input_gender">
                 <legend>Gender</legend>
                 <p>
@@ -61,6 +65,7 @@
                     <label for="female">Female</label>
                 </p>
             </fieldset>
+            <!-- Section for applicants home/postal address -->
             <fieldset  class="form_field" id="input_address">
                 <legend>Applicant Address</legend>
                 <p>
@@ -90,6 +95,7 @@
                     <input class="form_input" type="text" name="postcode" id="postcode" maxlength="4" minlength="4" pattern="\d{4}" required>
                 </p>
             </fieldset>
+            <!-- Section for applicants contact information -->
             <fieldset  class="form_field" id="input_contact">
                 <legend>Applicant Contact Details</legend>
                 <p>
@@ -101,6 +107,7 @@
                     <input class="form_input" type="text" name="number" id="number" minlength="8" maxlength="12" pattern="\d{8,12}" required>
                 </p>
             </fieldset>
+            <!-- Section for the applicants job skills -->
             <fieldset  class="form_field" id="input_skills">
                 <legend>Applicant Skill-set</legend>
                 <p>
@@ -120,6 +127,7 @@
                     <textarea name="other_skills" id="other_skills" rows="5" style="width: 100%; font-size:1rem;" placeholder="List any other skills you think may be useful for this position..."></textarea>
                 </p>
             </fieldset>
+            <!-- Submit and reset buttons for the form -->
             <div class="form_field" id="submit_reset">
                 <p>
                     <input class="submit_but" type="submit" value="Submit">
@@ -132,7 +140,7 @@
 	            
         </form>
     </main>
-    
+    <!-- Footer containing contact details and project management -->
     <footer>
         <ul>
             <li><a href="https://greengrid.atlassian.net/jira/software/projects/GG/boards/2"> Jira Project</a></li>
