@@ -2,11 +2,15 @@
 
 Project Part 1
 
-GREEN GRID logo is generated using chatgpt(OpenAI, April 2026).
+greengrid_logo.png is generated using chatgpt(OpenAI, April 2026).
+
+background_graphic.png is generated using gemini(Google, April 2026).
 
 Reviewed and edited before use.
 
 images/acknowledgement_of_country.jpeg is from Swinburne website
+
+images/leaf.jpeg is from freepik.com
 
 Throughout the project, AI has been used for clearing doubts and validating code
 
