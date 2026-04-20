@@ -98,7 +98,7 @@ footer {
 /* formats the navigation links */
 footer ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5em;
     padding: 1em 2em;
     margin: 0px;
@@ -176,6 +176,61 @@ footer li {
     cursor: pointer;
     color: white;
     background-color: #2E6F40;
+}
+
+#searchbar button:hover {
+    background-color: #379251;
+}
+
+#table_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4ffc4;
+    padding: 64px;
+    margin: 16px;
+}
+
+#header_with_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4ffc4;
+    margin-bottom: 16px;
+}
+
+#header_with_image img {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#table_container table {
+    width: 80%;
+    margin: auto;
+}
+
+#table_container h2 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin: 16px;
+    font-size: 2em;
+}
+
+#table_container table td, #table_container table th {
+    padding: 16px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#table_container table th {
+    background-color: #2E6F40;
+    color: white;
+}
+
+#table_container table td {
+    background-color: #98f898;
+    color: black;
 }
 
 /* ------------------------------------------ */

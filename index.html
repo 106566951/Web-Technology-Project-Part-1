@@ -47,18 +47,61 @@
             </aside>
         </div>
         <div id="searchbar_container" class="border_with_shadow">
-            <!-- Table displaying data about company and maybe a search bar?? -->
+            <!-- Search Bar -->
             <label for="search">Search our <span class="highlight">Projects:</span></label>
             <div id="searchbar">
                 <input type="text" id="search" name="search" placeholder="E.g. Solar Panel Farms, Renewables Parade...">
                 <button type="submit">Search</button>
             </div>
         </div>
+        <div id="table_container" class="border_with_shadow">
+            <!-- Table -->
+            <div id="header_with_image">
+                <h2>What We Offer</h2>
+                <img src="images/leafs.png" alt="leafs" width="50">
+            </div>
+            <table class="border_with_shadow">
+                <thead>
+                    <tr>
+                        <th>Solution Type</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Solar</td>
+                        <td>Residential rooftop solar installation and monitoring</td>
+                        <td rowspan="2">Active</td>
+                    </tr>
+                    <tr>
+                        <td>Commercial solar farm development and maintenance</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Wind</td>
+                        <td>Onshore wind turbine deployment for regional communities</td>
+                        <td rowspan="2">Active</td>
+                    </tr>
+                    <tr>
+                        <td>Offshore wind infrastructure planning and construction</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Hydro</td>
+                        <td>Household battery systems paired with solar</td>
+                        <td rowspan="2">Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>Grid-scale battery storage for peak demand management</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer>
         <ul>
-            <li><a href="https://greengrid.atlassian.net/jira/software/projects/GG/boards/2"> Jira Project</a></li>
             <li><a href="https://github.com/106566951/Web-Technology-Project-Part-1"> Github Repository</a></li>
+            <li><a href="https://106566951.github.io/Web-Technology-Project-Part-1/"> Github Pages Site</a></li>
+            <li><a href="https://greengrid.atlassian.net/jira/software/projects/GG/boards/2"> Jira Project</a></li>
             <li>Email: <a href="mailto:info@greengridbusiness.com">info@greengridbusiness.com</a></li>
         </ul>
     </footer>
