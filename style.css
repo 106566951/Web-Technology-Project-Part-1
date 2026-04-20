@@ -24,9 +24,13 @@
 
 /* Removes default padding and margin from body tag */
 body {
+    background-image: url('images/background_graphic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0px;
     padding: 0px;
-    background-color: #d5ffd5;
 }
 
 /* Adds margin and padding to just main */
@@ -115,18 +119,19 @@ footer li {
 /* ------- Index CSS ------- */
 /* ------------------------------------------ */
 
+/* adds shadow and border */
 .border_with_shadow {
     box-shadow: #00000051 10px 10px 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-/* hightlights in red when hovered across text*/
-
+/* colours text in green */
 .highlight {
-  color: #2E6F40; /* Emphasises the word */
+  color: #2E6F40;
 } 
 
+/* formats the text with image container */
 .text_with_image_container {
   background-color: #c4ffc4;
   display: flex;
@@ -135,14 +140,17 @@ footer li {
   margin: 16px;
 }
 
+/* changes font size of description */
 .description {
   font-size: 1.5em;
 }
 
+/* changes font size of slogan */
 #slogan {
   font-size: 2em;
 }
 
+/* formats the search bar container */
 #searchbar_container {
   background-color: #98f898;
   display: flex;
@@ -153,12 +161,14 @@ footer li {
   margin: 16px;
 }
 
+/* formats the search bar heading/label */
 #searchbar_container label {
   font-weight: bold;
   margin: 16px;
   font-size: 2em;
 }
 
+/* formats the search bar */
 #searchbar {
     display: flex;
     border: 2px solid black;
@@ -166,6 +176,7 @@ footer li {
 
 }
 
+/* formats the search bar input and button */
 #searchbar input, #searchbar button {
     line-height: 2;
     font-size: 2em;
@@ -174,16 +185,19 @@ footer li {
     border: 0px;
 }
 
+/* formats the search bar button colours and cursor */
 #searchbar button {
     cursor: pointer;
     color: white;
     background-color: #2E6F40;
 }
 
+/* formats the search bar button on hover */
 #searchbar button:hover {
     background-color: #379251;
 }
 
+/* formats the table container */
 #table_container {
     display: flex;
     flex-direction: column;
@@ -194,6 +208,7 @@ footer li {
     margin: 16px;
 }
 
+/* puts image and header side by side */
 #header_with_image {
     display: flex;
     align-items: center;
@@ -202,16 +217,19 @@ footer li {
     margin-bottom: 16px;
 }
 
+/* gives border to header's image */
 #header_with_image img {
     border: 1px solid black;
     border-radius: 10px;
 }
 
+/* formats the table */
 #table_container table {
     width: 80%;
     margin: auto;
 }
 
+/* formats the table h2 */
 #table_container h2 {
     font-weight: bold;
     margin-top: 0px;
@@ -219,17 +237,20 @@ footer li {
     font-size: 2em;
 }
 
+/* formats the table th and td */
 #table_container table td, #table_container table th {
     padding: 16px;
     text-align: left;
     font-size: 1.2em;
 }
 
+/* formats the table th colour */
 #table_container table th {
     background-color: #2E6F40;
     color: white;
 }
 
+/* formats the table td colour */
 #table_container table td {
     background-color: #98f898;
     color: black;
@@ -242,7 +263,6 @@ footer li {
 .red_highlight:hover {
   color: rgb(170, 102, 102); /* Changes text color to red on hover */
 }   
-
 
 table {
   border-collapse: collapse;
