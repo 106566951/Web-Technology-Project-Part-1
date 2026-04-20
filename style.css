@@ -47,10 +47,10 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
     gap: 5em;
-    padding: auto;
+    padding: 1em 2em;
     margin: 0px;
-    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* removes dots and displays the lines horizontally */
@@ -112,7 +112,9 @@ footer{
 }
 
 #format{
-    display: flex; align-items: left; gap: 5%;
+    display: flex; 
+    text-align: left; 
+    gap: 5%;
     padding-top: 3%;
     padding-left: 2%;
     padding-bottom: 3%;
