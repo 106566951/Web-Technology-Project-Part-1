@@ -45,6 +45,7 @@ main, footer {
 /* ------- Heading and Navigation CSS ------- */
 /* ------------------------------------------ */
 
+/* colours the navigation bar */
 nav {
     background-color: #77DD77;
 }
@@ -60,7 +61,7 @@ nav ul {
     text-align: center;
 }
 
-/* removes dots and displays the lines horizontally */
+/* removes dots */
 nav li { 
     list-style: none;
 }
@@ -74,6 +75,7 @@ nav li {
     transition: transform 0.2s ease;
 }
 
+/* on hover, the navigation links will go up by 5 pixels and change color with underline */
 .navlink:hover {
     color: #2E6F40;
     text-decoration: underline;
@@ -84,6 +86,7 @@ nav li {
 /* ------- Footer CSS ------- */
 /* ------------------------------------------ */
 
+/* formats the footer */
 footer {
     margin: 0px;
     background-color: #77DD77;
@@ -92,6 +95,7 @@ footer {
     padding-bottom: 4em;
 }
 
+/* formats the navigation links */
 footer ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -102,6 +106,7 @@ footer ul {
     text-align: center;
 }
 
+/* removes dots */
 footer li {
     list-style: none;
 }
@@ -110,14 +115,22 @@ footer li {
 /* ------- Index CSS ------- */
 /* ------------------------------------------ */
 
+.border_with_shadow {
+    box-shadow: #00000051 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .highlight {
   color: #2E6F40; /* Emphasises the word */
 } 
 
 .text_with_image_container {
+  background-color: #c4ffc4;
   display: flex;
-  align-items: center;
-  gap: 1em;
+  justify-content: space-between;
+  padding: 32px;
+  margin: 16px;
 }
 
 /* ------------------------------------------ */
