@@ -114,6 +114,12 @@ footer li {
   color: #2E6F40; /* Emphasises the word */
 } 
 
+.text_with_image_container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
 /* ------------------------------------------ */
 /* ---------- About me CSS ---------- */
 /* ------------------------------------------ */
